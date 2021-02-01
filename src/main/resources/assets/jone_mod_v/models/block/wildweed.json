@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "jone_mod_v:blocks/base2weed",
+    "particle": "jone_mod_v:blocks/base2weed"
+  }
+}

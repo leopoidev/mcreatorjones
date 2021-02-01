@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "jone_mod_v:blocks/stage1ofweed",
+    "particle": "jone_mod_v:blocks/stage1ofweed"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "jone_mod_v:block/wildweed"
+    },
+    "half=lower": {
+      "model": "jone_mod_v:block/wildweed_bottom"
+    }
+  }
+}
