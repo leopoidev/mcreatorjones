@@ -1,1 +1,11 @@
-{}
+{
+  "salmoinatu": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "jone_mod_v:ontiva.com-fish_in_a_tube-hq",
+        "stream": false
+      }
+    ]
+  }
+}
