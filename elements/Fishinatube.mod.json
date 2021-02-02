@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "saumoninatube",
+    "name": "Fishinatube",
+    "description": "fish in a tube",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:salmoinatu"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

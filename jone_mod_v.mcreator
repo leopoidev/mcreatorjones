@@ -229,6 +229,15 @@
       "registry_name": "jones_tools"
     },
     {
+      "name": "Eggrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eggrecipe"
+    },
+    {
       "name": "Jonesbow",
       "type": "gun",
       "sortid": 17,
@@ -238,13 +247,31 @@
       "registry_name": "jonesbow"
     },
     {
-      "name": "Eggrecipe",
-      "type": "recipe",
-      "sortid": 17,
+      "name": "Opioids",
+      "type": "food",
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "eggrecipe"
+      "registry_name": "opioids"
+    },
+    {
+      "name": "Drugs",
+      "type": "tab",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drugs"
+    },
+    {
+      "name": "Esenc",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "esenc"
     },
     {
       "name": "Jonesbowreciepe",
@@ -283,59 +310,54 @@
       "registry_name": "jonesswordreciepe"
     },
     {
-      "name": "Drugs",
-      "type": "tab",
-      "sortid": 19,
+      "name": "Fishinatube",
+      "type": "musicdisc",
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "drugs"
-    },
-    {
-      "name": "Opioids",
-      "type": "food",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "opioids"
-    },
-    {
-      "name": "Esenc",
-      "type": "block",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "esenc"
+      "registry_name": "fishinatube"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "salmoinatu",
+      "files": [
+        "ontiva.com-fish_in_a_tube-hq"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
+      "item.jone_mod_v.fishinatube.desc": "fish in a tube",
+      "item.jone_mod_v.fishinatube": "Fishinatube",
+      "item.jone_mod_v.jones_sword": "Jones Sword",
+      "item.jone_mod_v.opioids": "Opioids",
+      "advancements.aweedy_place.descr": "Plant your first weed seed",
+      "item.jone_mod_v.jones_tools": "Jones Tools",
+      "block.jone_mod_v.esenc": "Protodisenchaeeee",
+      "item.jone_mod_v.jonesbow": "Jonesbow",
+      "item.jone_mod_v.weeeseed": "Weeeseed",
+      "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
+      "item.jone_mod_v.botleofprojectile": "Botleofprojectile",
+      "item.jone_mod_v.finaljonesarmorornotlol_boots": "Blue jones Boots",
       "item.jone_mod_v.finaljonesarmorornotlol_chestplate": "Blue jones  Body",
       "block.jone_mod_v.weedstage_6": "Weedstage 6",
       "advancements.aweedy_place.title": "A Weedy Place",
       "block.jone_mod_v.weedstage_5": "Weedstage 1",
       "block.jone_mod_v.wildweed": "Wild weed",
-      "item.jone_mod_v.jones_sword": "Jones Sword",
       "block.jone_mod_v.protodisencha": "Protodisencha",
+      "subtitles.salmoinatu": "",
       "itemGroup.tabdrugs": "Drugs",
-      "item.jone_mod_v.opioids": "Opioids",
-      "advancements.aweedy_place.descr": "Plant your first weed seed",
-      "item.jone_mod_v.jones_tools": "Jones Tools",
-      "item.jone_mod_v.jonesbow": "Jonesbow",
-      "item.jone_mod_v.jonesingot": "Jones Ingot",
-      "item.jone_mod_v.weeeseed": "Weeeseed",
+      "item.jone_mod_v.jonesingot": "Jonesingot",
       "block.jone_mod_v.weedstage_4": "Weedstage 1",
-      "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
-      "item.jone_mod_v.botleofprojectile": "Botleofprojectile",
       "block.jone_mod_v.weedstage_3": "Weedstage 1",
       "block.jone_mod_v.weedstage_2": "Weedstage 1",
-      "block.jone_mod_v.weedstage_1": "Weedstage 1",
       "item.jone_mod_v.finaljonesarmorornotlol_helmet": "Blue jones Helmet",
-      "item.jone_mod_v.finaljonesarmorornotlol_boots": "Blue jones Boots"
+      "block.jone_mod_v.weedstage_1": "Weedstage 1"
     }
   },
   "workspaceSettings": {
