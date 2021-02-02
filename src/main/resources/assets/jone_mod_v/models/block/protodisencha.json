@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jone_mod_v:blocks/sideenc",
+    "up": "jone_mod_v:blocks/top",
+    "north": "jone_mod_v:blocks/sideenc",
+    "east": "jone_mod_v:blocks/sideenc",
+    "south": "jone_mod_v:blocks/sideenc",
+    "west": "jone_mod_v:blocks/sideenc",
+    "particle": "jone_mod_v:blocks/sideenc"
+  }
+}
