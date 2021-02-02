@@ -1,0 +1,58 @@
+{
+  "_fv": 15,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "joooneshelmet",
+    "enableBody": true,
+    "textureBody": "joneschestplate2",
+    "enableLeggings": true,
+    "textureLeggings": "jonesleggings",
+    "enableBoots": true,
+    "textureBoots": "jonesboots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "jonescompletearmor",
+    "helmetName": "Blue jones Helmet",
+    "bodyName": "Blue jones  Body",
+    "leggingsName": "Blue jones Leggings",
+    "bootsName": "Blue jones Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 9,
+    "toughness": 1.7,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "entity.blaze.burn"
+    },
+    "repairItems": [
+      {
+        "value": "Items.GOLDEN_HOE"
+      }
+    ]
+  }
+}

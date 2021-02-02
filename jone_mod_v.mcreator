@@ -21,6 +21,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -132,15 +136,19 @@
       "registry_name": "weedstage_6"
     },
     {
-      "name": "Weedstage2update",
+      "name": "Weedstageclic",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "weedstage_2update",
+      "registry_name": "weedstageclic",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -161,90 +169,27 @@
       }
     },
     {
-      "name": "Weedstage3update",
-      "type": "procedure",
-      "sortid": 10,
+      "name": "AweedyPlace",
+      "type": "achievement",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "weedstage_3update",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "aweedy_place"
     },
     {
-      "name": "Weedstage4update",
-      "type": "procedure",
-      "sortid": 11,
+      "name": "Finaljonesarmorornotlol",
+      "type": "armor",
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "weedstage_4update",
+      "registry_name": "finaljonesarmorornotlol",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Weedstage5update",
-      "type": "procedure",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "weedstage_5update",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
       }
     }
   ],
@@ -252,14 +197,20 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.jone_mod_v.finaljonesarmorornotlol_chestplate": "Blue jones  Body",
       "block.jone_mod_v.weedstage_6": "Weedstage 6",
+      "advancements.aweedy_place.title": "A Weedy Place",
       "block.jone_mod_v.weedstage_5": "Weedstage 1",
       "block.jone_mod_v.wildweed": "Wild weed",
+      "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.weeeseed": "Weeeseed",
       "block.jone_mod_v.weedstage_4": "Weedstage 1",
+      "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
       "block.jone_mod_v.weedstage_3": "Weedstage 1",
       "block.jone_mod_v.weedstage_2": "Weedstage 1",
-      "block.jone_mod_v.weedstage_1": "Weedstage 1"
+      "block.jone_mod_v.weedstage_1": "Weedstage 1",
+      "item.jone_mod_v.finaljonesarmorornotlol_helmet": "Blue jones Helmet",
+      "item.jone_mod_v.finaljonesarmorornotlol_boots": "Blue jones Boots"
     }
   },
   "workspaceSettings": {
