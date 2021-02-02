@@ -193,13 +193,13 @@
       }
     },
     {
-      "name": "Protodisencha",
-      "type": "block",
-      "sortid": 15,
+      "name": "Botleofprojectile",
+      "type": "item",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "protodisencha"
+      "registry_name": "botleofprojectile"
     },
     {
       "name": "JonesSword",
@@ -209,6 +209,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "jones_sword"
+    },
+    {
+      "name": "Protodisencha",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "protodisencha"
     },
     {
       "name": "JonesTools",
