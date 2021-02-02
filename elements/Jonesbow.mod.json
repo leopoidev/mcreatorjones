@@ -3,7 +3,7 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "jonesbow",
+    "texture": "jones_bow_bande",
     "customModelName": "Normal",
     "name": "Jonesbow",
     "specialInfo": [
