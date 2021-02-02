@@ -19,7 +19,7 @@
     "shootConstantly": true,
     "usageCount": 200,
     "actionSound": {
-      "value": "record.pigstep"
+      "value": "block.redstone_torch.burnout"
     },
     "hasGlow": true,
     "animation": "bow",
@@ -31,7 +31,7 @@
     "bulletParticles": true,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "Items.MUSIC_DISC_PIGSTEP"
+      "value": "Items.TIPPED_ARROW"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": ""
