@@ -246,6 +246,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "AweedyPlace",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aweedy_place"
     }
   ],
   "variable_elements": [],
@@ -253,8 +262,10 @@
   "language_map": {
     "en_us": {
       "block.jone_mod_v.weedstage_6": "Weedstage 6",
+      "advancements.aweedy_place.title": "A Weedy Place",
       "block.jone_mod_v.weedstage_5": "Weedstage 1",
       "block.jone_mod_v.wildweed": "Wild weed",
+      "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.weeeseed": "Weeeseed",
       "block.jone_mod_v.weedstage_4": "Weedstage 1",
       "block.jone_mod_v.weedstage_3": "Weedstage 1",
