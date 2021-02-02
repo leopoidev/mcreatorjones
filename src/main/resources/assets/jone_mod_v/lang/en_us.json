@@ -1,4 +1,5 @@
 {
+  "item.jone_mod_v.finaljonesarmorornotlol_chestplate": "Blue jones  Body",
   "block.jone_mod_v.weedstage_6": "Weedstage 6",
   "advancements.aweedy_place.title": "A Weedy Place",
   "block.jone_mod_v.weedstage_5": "Weedstage 1",
@@ -6,7 +7,10 @@
   "advancements.aweedy_place.descr": "Plant your first weed seed",
   "item.jone_mod_v.weeeseed": "Weeeseed",
   "block.jone_mod_v.weedstage_4": "Weedstage 1",
+  "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
   "block.jone_mod_v.weedstage_3": "Weedstage 1",
   "block.jone_mod_v.weedstage_2": "Weedstage 1",
-  "block.jone_mod_v.weedstage_1": "Weedstage 1"
+  "block.jone_mod_v.weedstage_1": "Weedstage 1",
+  "item.jone_mod_v.finaljonesarmorornotlol_helmet": "Blue jones Helmet",
+  "item.jone_mod_v.finaljonesarmorornotlol_boots": "Blue jones Boots"
 }
