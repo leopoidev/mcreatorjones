@@ -1,9 +1,17 @@
 
 package net.mcreator.jonemodv.itemgroup;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+
+import net.mcreator.jonemodv.item.OpioidsItem;
+import net.mcreator.jonemodv.JoneModVModElements;
+
 @JoneModVModElements.ModElement.Tag
 public class DrugsItemGroup extends JoneModVModElements.ModElement {
-
 	public DrugsItemGroup(JoneModVModElements instance) {
 		super(instance, 19);
 	}
@@ -23,7 +31,5 @@ public class DrugsItemGroup extends JoneModVModElements.ModElement {
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
-
 	public static ItemGroup tab;
-
 }

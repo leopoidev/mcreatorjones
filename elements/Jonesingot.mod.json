@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "jones_ingot",
+    "texture": "jones_ingotred",
     "customModelName": "Normal",
-    "name": "Jones Ingot",
-    "rarity": "UNCOMMON",
+    "name": "Jonesingot",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -24,10 +24,8 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Used for alot of jones related items"
-    ],
-    "hasGlow": true,
+    "specialInfo": [],
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64
