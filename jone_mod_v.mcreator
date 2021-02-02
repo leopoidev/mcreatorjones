@@ -236,6 +236,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "jonesbow"
+    },
+    {
+      "name": "Eggrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eggrecipe"
     }
   ],
   "variable_elements": [],

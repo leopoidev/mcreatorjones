@@ -1,0 +1,30 @@
+{
+  "group": "jone_mod_v",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:white_dye"
+    },
+    "3": {
+      "item": "minecraft:white_dye"
+    },
+    "4": {
+      "item": "jone_mod_v:botleofprojectile"
+    },
+    "5": {
+      "item": "minecraft:white_dye"
+    },
+    "7": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:shulker_spawn_egg",
+    "count": 1
+  }
+}
