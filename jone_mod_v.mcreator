@@ -21,6 +21,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -132,102 +136,19 @@
       "registry_name": "weedstage_6"
     },
     {
-      "name": "Weedstage2update",
+      "name": "Weedstageclic",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "weedstage_2update",
+      "registry_name": "weedstageclic",
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
+            "name": "entity",
+            "type": "entity"
           },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Weedstage3update",
-      "type": "procedure",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "weedstage_3update",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Weedstage4update",
-      "type": "procedure",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "weedstage_4update",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Weedstage5update",
-      "type": "procedure",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "weedstage_5update",
-      "metadata": {
-        "dependencies": [
           {
             "name": "x",
             "type": "number"
