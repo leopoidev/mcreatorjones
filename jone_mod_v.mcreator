@@ -191,6 +191,15 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "Botleofprojectile",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "botleofprojectile"
     }
   ],
   "variable_elements": [],
@@ -206,6 +215,7 @@
       "item.jone_mod_v.weeeseed": "Weeeseed",
       "block.jone_mod_v.weedstage_4": "Weedstage 1",
       "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
+      "item.jone_mod_v.botleofprojectile": "Botleofprojectile",
       "block.jone_mod_v.weedstage_3": "Weedstage 1",
       "block.jone_mod_v.weedstage_2": "Weedstage 1",
       "block.jone_mod_v.weedstage_1": "Weedstage 1",
