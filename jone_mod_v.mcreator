@@ -193,13 +193,13 @@
       }
     },
     {
-      "name": "JonesTools",
-      "type": "tool",
-      "sortid": 15,
+      "name": "Botleofprojectile",
+      "type": "item",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "jones_tools"
+      "registry_name": "botleofprojectile"
     },
     {
       "name": "JonesSword",
@@ -209,6 +209,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "jones_sword"
+    },
+    {
+      "name": "Protodisencha",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "protodisencha"
+    },
+    {
+      "name": "JonesTools",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jones_tools"
     }
   ],
   "variable_elements": [],
@@ -220,9 +238,7 @@
       "advancements.aweedy_place.title": "A Weedy Place",
       "block.jone_mod_v.weedstage_5": "Weedstage 1",
       "block.jone_mod_v.wildweed": "Wild weed",
-      "item.jone_mod_v.jones_sword": "Jones Sword",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
-      "item.jone_mod_v.jones_tools": "Jones Tools",
       "item.jone_mod_v.weeeseed": "Weeeseed",
       "block.jone_mod_v.weedstage_4": "Weedstage 1",
       "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
