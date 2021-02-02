@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jone_mod_v:block/protodisencha"
+    },
+    "facing=east": {
+      "model": "jone_mod_v:block/protodisencha",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jone_mod_v:block/protodisencha",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jone_mod_v:block/protodisencha",
+      "y": 270
+    }
+  }
+}
