@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:large_fern"
+    },
+    "title": {
+      "translate": "advancements.aweedy_place.title"
+    },
+    "description": {
+      "translate": "advancements.aweedy_place.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aweedy_place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "jone_mod_v:weedstage_1"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}
