@@ -1,0 +1,30 @@
+{
+  "group": "jone_mod_v",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "jone_mod_v:deleted_mod_element"
+    },
+    "1": {
+      "item": "jone_mod_v:deleted_mod_element"
+    },
+    "2": {
+      "item": "jone_mod_v:deleted_mod_element"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "jone_mod_v:jones_tools",
+    "count": 1
+  }
+}
