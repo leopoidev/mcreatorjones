@@ -1,0 +1,33 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "jonessword",
+    "customModelName": "Normal",
+    "name": "Jones Sword",
+    "specialInfo": [
+      "S W E E T S O D A"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 4.0,
+    "enchantability": 6,
+    "damageVsEntity": 8.0,
+    "usageCount": 600,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.GOLDEN_HOE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

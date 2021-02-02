@@ -1,0 +1,33 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "jonespickaxe",
+    "customModelName": "Normal",
+    "name": "Jones Tools",
+    "specialInfo": [
+      "Litteral soda pickaxe ! what could you ask more"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 5,
+    "damageVsEntity": 1.0,
+    "usageCount": 600,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.GOLDEN_HOE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}
