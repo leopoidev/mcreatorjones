@@ -1,0 +1,33 @@
+{
+  "group": "jone_mod_v",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "3 5",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "item": "jone_mod_v:jonesingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "jone_mod_v:jonesingot"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "jone_mod_v:jonesingot"
+    }
+  },
+  "result": {
+    "item": "jone_mod_v:jonesbow",
+    "count": 1
+  }
+}
