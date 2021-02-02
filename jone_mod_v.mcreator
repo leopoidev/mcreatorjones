@@ -299,6 +299,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "opioids"
+    },
+    {
+      "name": "Esenc",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "esenc"
     }
   ],
   "variable_elements": [],

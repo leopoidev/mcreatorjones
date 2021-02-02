@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jone_mod_v:block/esenc"
+    },
+    "facing=east": {
+      "model": "jone_mod_v:block/esenc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jone_mod_v:block/esenc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jone_mod_v:block/esenc",
+      "y": 270
+    }
+  }
+}
