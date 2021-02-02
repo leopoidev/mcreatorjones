@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "jone_mod_v:items/jonessword"
+    "layer0": "jone_mod_v:items/jonesswordv2"
   }
 }
