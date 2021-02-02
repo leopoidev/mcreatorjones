@@ -263,6 +263,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "drugs"
+    },
+    {
+      "name": "Esenc",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "esenc"
     }
   ],
   "variable_elements": [],
@@ -280,6 +289,7 @@
       "item.jone_mod_v.opioids": "Opioids",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.jones_tools": "Jones Tools",
+      "block.jone_mod_v.esenc": "Protodisenchaeeee",
       "item.jone_mod_v.jonesbow": "Jonesbow",
       "item.jone_mod_v.weeeseed": "Weeeseed",
       "block.jone_mod_v.weedstage_4": "Weedstage 1",
