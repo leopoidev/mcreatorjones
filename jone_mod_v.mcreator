@@ -247,15 +247,6 @@
       "registry_name": "eggrecipe"
     },
     {
-      "name": "Jonesingot",
-      "type": "item",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "jonesingot"
-    },
-    {
       "name": "Jonesbowreciepe",
       "type": "recipe",
       "sortid": 19,
@@ -263,6 +254,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "jonesbowreciepe"
+    },
+    {
+      "name": "Jonespickaxereciepe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jonespickaxereciepe"
+    },
+    {
+      "name": "Jonesingot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jonesingot"
     },
     {
       "name": "Jonesswordreciepe",
@@ -274,13 +283,22 @@
       "registry_name": "jonesswordreciepe"
     },
     {
-      "name": "Jonespickaxereciepe",
-      "type": "recipe",
-      "sortid": 20,
+      "name": "Drugs",
+      "type": "tab",
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "jonespickaxereciepe"
+      "registry_name": "drugs"
+    },
+    {
+      "name": "Opioids",
+      "type": "food",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opioids"
     }
   ],
   "variable_elements": [],
@@ -297,7 +315,6 @@
       "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.jones_tools": "Jones Tools",
       "item.jone_mod_v.jonesbow": "Jonesbow",
-      "item.jone_mod_v.jonesingot": "Jones Ingot",
       "item.jone_mod_v.weeeseed": "Weeeseed",
       "block.jone_mod_v.weedstage_4": "Weedstage 1",
       "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",

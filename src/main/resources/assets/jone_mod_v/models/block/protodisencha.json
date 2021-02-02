@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "jone_mod_v:blocks/sideenc",
+    "down": "jone_mod_v:blocks/asre",
     "up": "jone_mod_v:blocks/top",
-    "north": "jone_mod_v:blocks/sideenc",
-    "east": "jone_mod_v:blocks/sideenc",
-    "south": "jone_mod_v:blocks/sideenc",
-    "west": "jone_mod_v:blocks/sideenc",
-    "particle": "jone_mod_v:blocks/sideenc"
+    "north": "jone_mod_v:blocks/botum",
+    "east": "jone_mod_v:blocks/eeeeeeeeeeeeeeeee",
+    "south": "jone_mod_v:blocks/botum",
+    "west": "jone_mod_v:blocks/eeeeeeeeeeeeeeeee",
+    "particle": "jone_mod_v:blocks/asre"
   }
 }
