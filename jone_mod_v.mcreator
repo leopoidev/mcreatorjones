@@ -315,13 +315,80 @@
       "registry_name": "fishinatube"
     },
     {
-      "name": "Shulkerarrow",
-      "type": "item",
+      "name": "NonaquirableforarrowonlybombBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nonaquirableforarrowonlybomb_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disenchantcode",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disenchantcode"
+    },
+    {
+      "name": "Bruharrow",
+      "type": "procedure",
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "shulkerarrow"
+      "registry_name": "bruharrow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Smelte",
+      "type": "enchantment",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelte"
     },
     {
       "name": "Endbow",
@@ -333,13 +400,13 @@
       "registry_name": "endbow"
     },
     {
-      "name": "Endbowrecipe",
-      "type": "recipe",
-      "sortid": 24,
+      "name": "Shulkerarrow",
+      "type": "item",
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "endbowrecipe"
+      "registry_name": "shulkerarrow"
     },
     {
       "name": "Shulkerarrowrecipe",
@@ -351,13 +418,13 @@
       "registry_name": "shulkerarrowrecipe"
     },
     {
-      "name": "Smelte",
-      "type": "enchantment",
-      "sortid": 26,
+      "name": "Endbowrecipe",
+      "type": "recipe",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "smelte"
+      "registry_name": "endbowrecipe"
     }
   ],
   "variable_elements": [],

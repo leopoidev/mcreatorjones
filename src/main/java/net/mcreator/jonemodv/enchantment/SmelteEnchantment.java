@@ -1,19 +1,12 @@
 
 package net.mcreator.jonemodv.enchantment;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.enchantment.Enchantments;
-import net.minecraft.enchantment.EnchantmentType;
-import net.minecraft.enchantment.Enchantment;
-
-import net.mcreator.jonemodv.JoneModVModElements;
-
 @JoneModVModElements.ModElement.Tag
 public class SmelteEnchantment extends JoneModVModElements.ModElement {
+
 	@ObjectHolder("jone_mod_v:smelte")
 	public static final Enchantment enchantment = null;
+
 	public SmelteEnchantment(JoneModVModElements instance) {
 		super(instance, 26);
 	}
@@ -22,7 +15,9 @@ public class SmelteEnchantment extends JoneModVModElements.ModElement {
 	public void initElements() {
 		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("smelte"));
 	}
+
 	public static class CustomEnchantment extends Enchantment {
+
 		public CustomEnchantment(EquipmentSlotType... slots) {
 			super(Enchantment.Rarity.UNCOMMON, EnchantmentType.DIGGER, slots);
 		}
@@ -58,5 +53,7 @@ public class SmelteEnchantment extends JoneModVModElements.ModElement {
 		public boolean isAllowedOnBooks() {
 			return true;
 		}
+
 	}
+
 }
