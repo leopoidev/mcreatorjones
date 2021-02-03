@@ -451,6 +451,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Batte",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batte"
     }
   ],
   "variable_elements": [],
@@ -466,8 +475,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.jone_mod_v.fishinatube.desc": "fish in a tube",
       "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
+      "item.jone_mod_v.fishinatube.desc": "fish in a tube",
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "item.jone_mod_v.jones_sword": "Jones Sword",
       "item.jone_mod_v.endbow": "Endbow",
@@ -480,6 +489,7 @@
       "item.jone_mod_v.botleofprojectile": "Botleofprojectile",
       "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
       "item.jone_mod_v.weeeseed": "Weeeseed",
+      "item.jone_mod_v.batte": "Batte",
       "item.jone_mod_v.finaljonesarmorornotlol_boots": "Blue jones Boots",
       "item.jone_mod_v.finaljonesarmorornotlol_chestplate": "Blue jones  Body",
       "block.jone_mod_v.weedstage_6": "Weedstage 6",
