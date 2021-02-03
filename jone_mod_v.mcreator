@@ -373,8 +373,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
       "item.jone_mod_v.fishinatube.desc": "fish in a tube",
+      "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "item.jone_mod_v.jones_sword": "Jones Sword",
       "item.jone_mod_v.endbow": "Endbow",
