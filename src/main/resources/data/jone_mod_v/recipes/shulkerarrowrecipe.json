@@ -1,0 +1,19 @@
+{
+  "group": "jone_mod_v",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:shulker_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:arrow"
+    }
+  },
+  "result": {
+    "item": "jone_mod_v:shulkerarrow",
+    "count": 1
+  }
+}

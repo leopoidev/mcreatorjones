@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "Items.DYE#15"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.DYE#15"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Botleofprojectile"
+        "value": "Items.SHULKER_SPAWN_EGG"
       },
       {
-        "value": "Items.DYE#15"
+        "value": "Items.ARROW"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.DYE#15"
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.SHULKER_SPAWN_EGG"
+      "value": "CUSTOM:Shulkerarrow"
     },
-    "name": "eggrecipe",
+    "name": "shulkerarrowrecipe",
     "namespace": "mod"
   }
 }

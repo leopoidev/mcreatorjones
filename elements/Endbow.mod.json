@@ -3,35 +3,35 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "jones_bow_bande",
+    "texture": "jonesbow",
     "customModelName": "Normal",
-    "name": "Jonesbow",
+    "name": "Endbow",
     "specialInfo": [
-      "The ultimate bow"
+      "it seem to shot something else that normal arrow but what?"
     ],
     "creativeTab": {
       "value": "COMBAT"
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": "Items.ARROW"
+      "value": "CUSTOM:Shulkerarrow"
     },
-    "shootConstantly": true,
-    "usageCount": 200,
+    "shootConstantly": false,
+    "usageCount": 890,
     "actionSound": {
-      "value": "block.redstone_torch.burnout"
+      "value": "entity.arrow.shoot"
     },
-    "hasGlow": true,
+    "hasGlow": false,
     "animation": "bow",
     "enableMeleeDamage": false,
-    "damageVsEntity": 0.1,
-    "bulletPower": 4.5,
-    "bulletDamage": 6.5,
-    "bulletKnockback": 10,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 0.5,
+    "bulletKnockback": 5,
     "bulletParticles": true,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "Items.TIPPED_ARROW"
+      "value": "CUSTOM:Shulkerarrow"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": ""

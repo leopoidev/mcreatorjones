@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "Items.DYE#15"
+        "value": "Items.CHORUS_FRUIT"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "Items.STRING"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.DYE#15"
+        "value": "Items.CHORUS_FRUIT"
       },
       {
-        "value": "CUSTOM:Botleofprojectile"
-      },
-      {
-        "value": "Items.DYE#15"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.DYE#15"
-      },
-      {
-        "value": ""
+        "value": "Items.STRING"
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.SHULKER_SPAWN_EGG"
+      "value": "CUSTOM:Endbow"
     },
-    "name": "eggrecipe",
+    "name": "endbowrecipe",
     "namespace": "mod"
   }
 }

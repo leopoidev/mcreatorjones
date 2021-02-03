@@ -315,35 +315,6 @@
       "registry_name": "fishinatube"
     },
     {
-      "name": "Bruharrow",
-      "type": "procedure",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bruharrow",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "NonaquirableforarrowonlybombBulletHitsLivingEntity",
       "type": "procedure",
       "sortid": 23,
@@ -380,6 +351,80 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "disenchantcode"
+    },
+    {
+      "name": "Bruharrow",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bruharrow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Smelte",
+      "type": "enchantment",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelte"
+    },
+    {
+      "name": "Endbow",
+      "type": "gun",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endbow"
+    },
+    {
+      "name": "Shulkerarrow",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shulkerarrow"
+    },
+    {
+      "name": "Shulkerarrowrecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shulkerarrowrecipe"
+    },
+    {
+      "name": "Endbowrecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endbowrecipe"
     }
   ],
   "variable_elements": [],
@@ -396,22 +441,25 @@
   "language_map": {
     "en_us": {
       "item.jone_mod_v.fishinatube.desc": "fish in a tube",
+      "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "item.jone_mod_v.jones_sword": "Jones Sword",
+      "item.jone_mod_v.endbow": "Endbow",
       "item.jone_mod_v.opioids": "Opioids",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.jones_tools": "Jones Tools",
       "block.jone_mod_v.esenc": "Protodisenchaeeee",
       "item.jone_mod_v.jonesbow": "Jonesbow",
-      "item.jone_mod_v.weeeseed": "Weeeseed",
-      "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
       "item.jone_mod_v.botleofprojectile": "Botleofprojectile",
+      "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
+      "item.jone_mod_v.weeeseed": "Weeeseed",
       "item.jone_mod_v.finaljonesarmorornotlol_boots": "Blue jones Boots",
       "item.jone_mod_v.finaljonesarmorornotlol_chestplate": "Blue jones  Body",
       "block.jone_mod_v.weedstage_6": "Weedstage 6",
       "advancements.aweedy_place.title": "A Weedy Place",
       "block.jone_mod_v.weedstage_5": "Weedstage 1",
       "block.jone_mod_v.wildweed": "Wild weed",
+      "enchantment.jone_mod_v.smelte": "Smelte",
       "block.jone_mod_v.protodisencha": "Protodisencha",
       "subtitles.salmoinatu": "",
       "itemGroup.tabdrugs": "Drugs",

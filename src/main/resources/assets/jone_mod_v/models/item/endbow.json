@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "jone_mod_v:items/jones_bow_bande"
+    "layer0": "jone_mod_v:items/jonesbow"
   },
   "display": {
     "thirdperson_righthand": {
