@@ -487,6 +487,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "obsidian"
+    },
+    {
+      "name": "Sticks",
+      "type": "tag",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sticks"
+    },
+    {
+      "name": "BatteV1",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batte_v_1"
     }
   ],
   "variable_elements": [],
@@ -502,8 +520,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
       "item.jone_mod_v.fishinatube.desc": "fish in a tube",
+      "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "item.jone_mod_v.jones_sword": "Jones Sword",
       "item.jone_mod_v.endbow": "Endbow",
