@@ -510,7 +510,7 @@
       "name": "Chikenwing",
       "type": "food",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "chikenwing"
@@ -519,7 +519,7 @@
       "name": "Leafye",
       "type": "particle",
       "sortid": 38,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "leafye"
@@ -528,7 +528,7 @@
       "name": "Longironaxedeodorant",
       "type": "tool",
       "sortid": 29,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "longironaxedeodorant"
@@ -546,7 +546,7 @@
       "name": "Tropicalvine",
       "type": "block",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicalvine"
@@ -567,7 +567,7 @@
       "name": "Wagyubeef",
       "type": "food",
       "sortid": 40,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "wagyubeef"
@@ -576,7 +576,7 @@
       "name": "Longdiamondaxe",
       "type": "tool",
       "sortid": 31,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "longdiamondaxe"
@@ -585,7 +585,7 @@
       "name": "Tropicalbiome",
       "type": "block",
       "sortid": 36,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicalbiome"
@@ -606,7 +606,7 @@
       "name": "Tropicleaf",
       "type": "block",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicleaf"
@@ -615,7 +615,7 @@
       "name": "Gasoline",
       "type": "fluid",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "gasoline"
@@ -640,6 +640,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "longironrecipe"
+    },
+    {
+      "name": "CookedWagyubeef",
+      "type": "food",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_wagyubeef"
     }
   ],
   "variable_elements": [],
@@ -655,8 +664,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.jone_mod_v.fishinatube.desc": "fish in a tube",
       "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
+      "item.jone_mod_v.fishinatube.desc": "fish in a tube",
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "item.jone_mod_v.jones_sword": "Jones Sword",
       "item.jone_mod_v.endbow": "Endbow",
@@ -679,6 +688,7 @@
       "advancements.aweedy_place.title": "A Weedy Place",
       "block.jone_mod_v.weedstage_5": "Weedstage 1",
       "block.jone_mod_v.wildweed": "Wild weed",
+      "item.jone_mod_v.cooked_wagyubeef": "Cooked Wagyubeef",
       "enchantment.jone_mod_v.smelte": "Smelte",
       "block.jone_mod_v.protodisencha": "Protodisencha",
       "subtitles.salmoinatu": "",
