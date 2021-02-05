@@ -505,6 +505,141 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "batte_v_1"
+    },
+    {
+      "name": "Chikenwing",
+      "type": "food",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chikenwing"
+    },
+    {
+      "name": "Leafye",
+      "type": "particle",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leafye"
+    },
+    {
+      "name": "Longironaxedeodorant",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "longironaxedeodorant"
+    },
+    {
+      "name": "Extremetropicalbiome",
+      "type": "biome",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extremetropicalbiome"
+    },
+    {
+      "name": "Tropicalvine",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropicalvine"
+    },
+    {
+      "name": "WeedeffectDisplayOverlayIngamee",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weedeffect_display_overlay_ingamee",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Wagyubeef",
+      "type": "food",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wagyubeef"
+    },
+    {
+      "name": "Longdiamondaxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "longdiamondaxe"
+    },
+    {
+      "name": "Tropicalbiome",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropicalbiome"
+    },
+    {
+      "name": "WeedeffectDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weedeffect_display_overlay_ingame",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Tropicleaf",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropicleaf"
+    },
+    {
+      "name": "Gasoline",
+      "type": "fluid",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gasoline"
+    },
+    {
+      "name": "EdibleFoodEaten",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edible_food_eaten",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Longironrecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "longironrecipe"
     }
   ],
   "variable_elements": [],
