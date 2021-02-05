@@ -1,0 +1,23 @@
+{
+  "_fv": 15,
+  "_type": "fluid",
+  "definition": {
+    "name": "Gasoline",
+    "textureStill": "gasol",
+    "textureFlowing": "gasol",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1090,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": []
+  }
+}

@@ -499,6 +499,168 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "Chikenwing",
+      "type": "food",
+      "sortid": 32,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chikenwing"
+    },
+    {
+      "name": "Leafye",
+      "type": "particle",
+      "sortid": 38,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leafye"
+    },
+    {
+      "name": "Longironaxedeodorant",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "longironaxedeodorant"
+    },
+    {
+      "name": "Extremetropicalbiome",
+      "type": "biome",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extremetropicalbiome"
+    },
+    {
+      "name": "Tropicalvine",
+      "type": "block",
+      "sortid": 37,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropicalvine"
+    },
+    {
+      "name": "WeedeffectDisplayOverlayIngamee",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weedeffect_display_overlay_ingamee",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Wagyubeef",
+      "type": "food",
+      "sortid": 40,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wagyubeef"
+    },
+    {
+      "name": "Longdiamondaxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "longdiamondaxe"
+    },
+    {
+      "name": "Tropicalbiome",
+      "type": "block",
+      "sortid": 36,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropicalbiome"
+    },
+    {
+      "name": "Sticks",
+      "type": "tag",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sticks"
+    },
+    {
+      "name": "WeedeffectDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weedeffect_display_overlay_ingame",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Tropicleaf",
+      "type": "block",
+      "sortid": 39,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropicleaf"
+    },
+    {
+      "name": "Gasoline",
+      "type": "fluid",
+      "sortid": 41,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gasoline"
+    },
+    {
+      "name": "CookedWagyubeef",
+      "type": "food",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_wagyubeef"
+    },
+    {
+      "name": "EdibleFoodEaten",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edible_food_eaten",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "BatteV1",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batte_v_1"
+    },
+    {
+      "name": "Longironrecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "longironrecipe"
     }
   ],
   "variable_elements": [],
@@ -514,8 +676,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
       "item.jone_mod_v.fishinatube.desc": "fish in a tube",
+      "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "item.jone_mod_v.jones_sword": "Jones Sword",
       "item.jone_mod_v.endbow": "Endbow",
