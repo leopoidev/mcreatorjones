@@ -2,36 +2,36 @@
   "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "asre",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "eeeeeeeeeeeeeeeeeeeeeeeeeee:default",
-    "rotationMode": 0,
+    "texture": "coktee",
+    "textureTop": "coktee",
+    "textureLeft": "coketree",
+    "textureFront": "coketree",
+    "textureRight": "coketree",
+    "textureBack": "coketree",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 5,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "mettanker",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
     "Mx": 1.0,
-    "My": 2.0,
+    "My": 1.0,
     "Mz": 1.0,
-    "name": "Metank",
+    "name": "Tropicalbiome",
     "specialInfo": [],
-    "hardness": 1.5,
-    "resistance": 16.5,
+    "hardness": 1.05,
+    "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Drugs"
     },
@@ -46,7 +46,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -64,7 +64,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "WOOD"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -95,11 +95,7 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

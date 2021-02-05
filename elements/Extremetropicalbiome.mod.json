@@ -1,0 +1,106 @@
+{
+  "_fv": 15,
+  "_type": "biome",
+  "definition": {
+    "name": "Extremetropicalbiome",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "airColor": {
+      "value": -10243870,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -15608051,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16711934,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16711774,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16753367,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Leafye"
+    },
+    "particlesProbability": 0.7,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.9,
+    "temperature": 0.6,
+    "baseHeight": 0.30000000000000004,
+    "heightVariation": 0.1,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 17,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 14,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 3,
+    "cactiPerChunk": 8,
+    "treesPerChunk": 127,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 23,
+    "maxWaterDepth": 1,
+    "treeStem": {
+      "value": "CUSTOM:Tropicalbiome"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Tropicalvine"
+    },
+    "treeVines": {
+      "value": "CUSTOM:Tropicleaf"
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "TaigaRocks"
+    ],
+    "spawnEntries": []
+  }
+}
