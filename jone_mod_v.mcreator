@@ -453,33 +453,6 @@
       }
     },
     {
-      "name": "Longironaxedeodorant",
-      "type": "tool",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "longironaxedeodorant"
-    },
-    {
-      "name": "Longironrecipe",
-      "type": "recipe",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "longironrecipe"
-    },
-    {
-      "name": "Longdiamondaxe",
-      "type": "tool",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "longdiamondaxe"
-    },
-    {
       "name": "Chikenwing",
       "type": "food",
       "sortid": 32,
@@ -489,16 +462,40 @@
       "registry_name": "chikenwing"
     },
     {
-      "name": "WeedeffectDisplayOverlayIngame",
-      "type": "procedure",
-      "sortid": 34,
+      "name": "Leafye",
+      "type": "particle",
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "weedeffect_display_overlay_ingame",
-      "metadata": {
-        "dependencies": []
-      }
+      "registry_name": "leafye"
+    },
+    {
+      "name": "Longironaxedeodorant",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "longironaxedeodorant"
+    },
+    {
+      "name": "Extremetropicalbiome",
+      "type": "biome",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extremetropicalbiome"
+    },
+    {
+      "name": "Tropicalvine",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropicalvine"
     },
     {
       "name": "WeedeffectDisplayOverlayIngamee",
@@ -513,6 +510,63 @@
       }
     },
     {
+      "name": "Wagyubeef",
+      "type": "food",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wagyubeef"
+    },
+    {
+      "name": "Longdiamondaxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "longdiamondaxe"
+    },
+    {
+      "name": "Tropicalbiome",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropicalbiome"
+    },
+    {
+      "name": "WeedeffectDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weedeffect_display_overlay_ingame",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Tropicleaf",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tropicleaf"
+    },
+    {
+      "name": "Gasoline",
+      "type": "fluid",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gasoline"
+    },
+    {
       "name": "EdibleFoodEaten",
       "type": "procedure",
       "sortid": 34,
@@ -525,67 +579,49 @@
       }
     },
     {
-      "name": "Tropicalbiome",
-      "type": "block",
-      "sortid": 36,
+      "name": "Longironrecipe",
+      "type": "recipe",
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tropicalbiome"
+      "registry_name": "longironrecipe"
     },
     {
-      "name": "Tropicalvine",
-      "type": "block",
-      "sortid": 37,
+      "name": "Obsidianguardian",
+      "type": "mob",
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tropicalvine"
+      "registry_name": "obsidianguardian"
     },
     {
-      "name": "Leafye",
-      "type": "particle",
-      "sortid": 38,
+      "name": "Obsidian",
+      "type": "recipe",
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "leafye"
+      "registry_name": "obsidian"
     },
     {
-      "name": "Tropicleaf",
-      "type": "block",
-      "sortid": 39,
+      "name": "Batte",
+      "type": "tool",
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tropicleaf"
+      "registry_name": "batte"
     },
     {
-      "name": "Extremetropicalbiome",
-      "type": "biome",
-      "sortid": 36,
+      "name": "Obsidianshard",
+      "type": "item",
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "extremetropicalbiome"
-    },
-    {
-      "name": "Wagyubeef",
-      "type": "food",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "wagyubeef"
-    },
-    {
-      "name": "Gasoline",
-      "type": "fluid",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gasoline"
+      "registry_name": "obsidianshard"
     }
   ],
   "variable_elements": [],
@@ -601,25 +637,17 @@
   ],
   "language_map": {
     "en_us": {
-      "block.jone_mod_v.tropicalvine": "Tropicalvine",
       "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
       "item.jone_mod_v.fishinatube.desc": "fish in a tube",
-      "item.jone_mod_v.wagyubeef": "Wagyubeef",
       "item.jone_mod_v.fishinatube": "Fishinatube",
-      "biome.jone_mod_v.extremetropicalbiome": "Extremetropicalbiome",
-      "fluid.gasoline": "Gasoline",
       "item.jone_mod_v.jones_sword": "Jones Sword",
       "item.jone_mod_v.endbow": "Endbow",
-      "block.jone_mod_v.tropicleaf": "Tropicleaf",
       "block.jone_mod_v.metank": "Metank",
-      "item.jone_mod_v.gasoline_bucket": "Gasoline Bucket",
       "item.jone_mod_v.opioids": "Oxycontin",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.jones_tools": "Jones Tools",
       "block.jone_mod_v.esenc": "Protodisenchaeeee",
-      "item.jone_mod_v.longdiamondaxe": "Longdiamondaxe",
       "item.jone_mod_v.jonesbow": "Jonesbow",
-      "item.jone_mod_v.longironaxedeodorant": "Longironaxedeodorant",
       "item.jone_mod_v.botleofprojectile": "Botleofprojectile",
       "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
       "item.jone_mod_v.weeeseed": "Weeeseed",
@@ -628,8 +656,6 @@
       "block.jone_mod_v.weedstage_6": "Weedstage 6",
       "advancements.aweedy_place.title": "A Weedy Place",
       "block.jone_mod_v.weedstage_5": "Weedstage 1",
-      "item.jone_mod_v.chikenwing": "Chikenwing",
-      "block.jone_mod_v.tropicalbiome": "Tropicalbiome",
       "block.jone_mod_v.wildweed": "Wild weed",
       "enchantment.jone_mod_v.smelte": "Smelte",
       "block.jone_mod_v.protodisencha": "Protodisencha",

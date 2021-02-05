@@ -13,7 +13,11 @@
         "value": "EFFICIENCY"
       }
     ],
-    "compatibleItems": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:JonesTools"
+      }
+    ],
     "isTreasureEnchantment": false,
     "isCurse": false,
     "isAllowedOnBooks": true
