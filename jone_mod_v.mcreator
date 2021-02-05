@@ -487,6 +487,18 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "obsidian"
+    },
+    {
+      "name": "ObsidianguardianOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianguardian_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
