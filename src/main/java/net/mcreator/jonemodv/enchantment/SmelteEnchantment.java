@@ -3,11 +3,13 @@ package net.mcreator.jonemodv.enchantment;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.enchantment.EnchantmentType;
 import net.minecraft.enchantment.Enchantment;
 
+import net.mcreator.jonemodv.item.JonesToolsItem;
 import net.mcreator.jonemodv.JoneModVModElements;
 
 @JoneModVModElements.ModElement.Tag
@@ -40,6 +42,13 @@ public class SmelteEnchantment extends JoneModVModElements.ModElement {
 		@Override
 		protected boolean canApplyTogether(Enchantment ench) {
 			if (ench == Enchantments.EFFICIENCY)
+				return true;
+			return false;
+		}
+
+		@Override
+		public boolean canApplyAtEnchantingTable(ItemStack stack) {
+			if (stack.getItem() == new ItemStack(JonesToolsItem.block, (int) (1)).getItem())
 				return true;
 			return false;
 		}

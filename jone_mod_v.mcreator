@@ -460,6 +460,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "batte"
+    },
+    {
+      "name": "Obsidianshard",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianshard"
+    },
+    {
+      "name": "Obsidianguardian",
+      "type": "mob",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianguardian"
+    },
+    {
+      "name": "Obsidian",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian"
     }
   ],
   "variable_elements": [],
@@ -481,7 +508,9 @@
       "item.jone_mod_v.jones_sword": "Jones Sword",
       "item.jone_mod_v.endbow": "Endbow",
       "block.jone_mod_v.metank": "Metank",
+      "item.jone_mod_v.obsidianguardian_spawn_egg": "Obsidianguardian Spawn Egg",
       "item.jone_mod_v.opioids": "Oxycontin",
+      "item.jone_mod_v.obsidianshard": "Obsidianshard",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.jones_tools": "Jones Tools",
       "block.jone_mod_v.esenc": "Protodisenchaeeee",
@@ -490,6 +519,7 @@
       "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
       "item.jone_mod_v.weeeseed": "Weeeseed",
       "item.jone_mod_v.batte": "Batte",
+      "entity.jone_mod_v.obsidianguardian": "Obsidianguardian",
       "item.jone_mod_v.finaljonesarmorornotlol_boots": "Blue jones Boots",
       "item.jone_mod_v.finaljonesarmorornotlol_chestplate": "Blue jones  Body",
       "block.jone_mod_v.weedstage_6": "Weedstage 6",
