@@ -1,49 +1,17 @@
 
 package net.mcreator.jonemodv.block;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.IWorld;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.util.math.shapes.VoxelShapes;
-import net.minecraft.util.math.shapes.VoxelShape;
-import net.minecraft.util.math.shapes.ISelectionContext;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
-import net.minecraft.state.properties.BlockStateProperties;
-import net.minecraft.state.StateContainer;
-import net.minecraft.state.BooleanProperty;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItemUseContext;
-import net.minecraft.item.BlockItem;
-import net.minecraft.fluid.Fluids;
-import net.minecraft.fluid.FluidState;
-import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.IWaterLoggable;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.mcreator.jonemodv.itemgroup.DrugsItemGroup;
-import net.mcreator.jonemodv.JoneModVModElements;
-
-import java.util.List;
-import java.util.Collections;
 
 @JoneModVModElements.ModElement.Tag
 public class FrouenBlock extends JoneModVModElements.ModElement {
+
 	@ObjectHolder("jone_mod_v:frouen")
 	public static final Block block = null;
+
 	public FrouenBlock(JoneModVModElements instance) {
 		super(instance, 43);
+
 	}
 
 	@Override
@@ -57,12 +25,19 @@ public class FrouenBlock extends JoneModVModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block implements IWaterLoggable {
+
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
-					.setOpaque((bs, br, bp) -> false));
+			super(
+
+					Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
+							.setOpaque((bs, br, bp) -> false));
+
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
+
 			setRegistryName("frouen");
 		}
 
@@ -104,10 +79,13 @@ public class FrouenBlock extends JoneModVModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
+
 	}
+
 }

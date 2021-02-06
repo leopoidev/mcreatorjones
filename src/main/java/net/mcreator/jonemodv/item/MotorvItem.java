@@ -2,13 +2,13 @@
 package net.mcreator.jonemodv.item;
 
 @JoneModVModElements.ModElement.Tag
-public class GasolinItem extends JoneModVModElements.ModElement {
+public class MotorvItem extends JoneModVModElements.ModElement {
 
-	@ObjectHolder("jone_mod_v:gasolin")
+	@ObjectHolder("jone_mod_v:motorv")
 	public static final Item block = null;
 
-	public GasolinItem(JoneModVModElements instance) {
-		super(instance, 42);
+	public MotorvItem(JoneModVModElements instance) {
+		super(instance, 43);
 
 	}
 
@@ -21,7 +21,7 @@ public class GasolinItem extends JoneModVModElements.ModElement {
 
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("gasolin");
+			setRegistryName("motorv");
 		}
 
 		@Override
