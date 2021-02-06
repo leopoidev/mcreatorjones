@@ -5,22 +5,25 @@
     "renderType": 0,
     "texture": "opiods",
     "customModelName": "Normal",
-    "name": "Opioids",
-    "rarity": "COMMON",
+    "name": "Oxycontin",
+    "rarity": "EPIC",
     "specialInfo": [],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:Drugs"
     },
-    "stackSize": 64,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
-    "eatingSpeed": 32,
+    "stackSize": 8,
+    "nutritionalValue": -1,
+    "saturation": -0.30000000000000004,
+    "eatingSpeed": 77,
     "resultItem": {
       "value": ""
     },
     "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "eat",
-    "hasGlow": false
+    "hasGlow": true,
+    "onEaten": {
+      "name": "OpioidsFoodEaten"
+    }
   }
 }

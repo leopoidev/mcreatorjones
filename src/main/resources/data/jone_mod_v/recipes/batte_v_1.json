@@ -1,0 +1,36 @@
+{
+  "group": "jone_mod_v",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:oak_log"
+    },
+    "2": {
+      "item": "minecraft:oak_log"
+    },
+    "3": {
+      "item": "minecraft:leather"
+    },
+    "4": {
+      "item": "minecraft:oak_log"
+    },
+    "5": {
+      "item": "minecraft:oak_log"
+    },
+    "6": {
+      "tag": "sticks"
+    },
+    "7": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "jone_mod_v:batte",
+    "count": 1
+  }
+}

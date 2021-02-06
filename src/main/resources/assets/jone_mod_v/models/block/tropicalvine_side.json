@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "edge": "jone_mod_v:blocks/cokevines",
+    "pane": "jone_mod_v:blocks/cokevines"
+  }
+}

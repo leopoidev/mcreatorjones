@@ -45,6 +45,8 @@ public class JoneModVModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public JoneModVModElements() {
+		sounds.put(new ResourceLocation("jone_mod_v", "salmoinatu"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("jone_mod_v", "salmoinatu")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("jone_mod_v").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

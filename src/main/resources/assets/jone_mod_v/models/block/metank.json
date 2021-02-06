@@ -1,0 +1,9 @@
+{
+  "parent": "jone_mod_v:custom/eeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "textures": {
+    "all": "jone_mod_v:blocks/asre",
+    "particle": "jone_mod_v:blocks/asre",
+    "0": "jone_mod_v:blocks/asre",
+    "missing": "jone_mod_v:blocks/asre"
+  }
+}

@@ -46,9 +46,6 @@
     "fireSpreadSpeed": 60,
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "onTickUpdate": {
-      "name": "Weedstage4update"
-    }
+    "restrictionBiomes": []
   }
 }
