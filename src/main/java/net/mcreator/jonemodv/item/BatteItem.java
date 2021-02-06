@@ -1,12 +1,28 @@
 
 package net.mcreator.jonemodv.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.client.util.ITooltipFlag;
+
+import net.mcreator.jonemodv.JoneModVModElements;
+
+import java.util.List;
+
 @JoneModVModElements.ModElement.Tag
 public class BatteItem extends JoneModVModElements.ModElement {
-
 	@ObjectHolder("jone_mod_v:batte")
 	public static final Item block = null;
-
 	public BatteItem(JoneModVModElements instance) {
 		super(instance, 29);
 	}
@@ -38,7 +54,6 @@ public class BatteItem extends JoneModVModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(Items.WOODEN_AXE, (int) (1)));
 			}
 		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
-
 			@Override
 			public boolean hasContainerItem() {
 				return true;
@@ -59,8 +74,6 @@ public class BatteItem extends JoneModVModElements.ModElement {
 				super.addInformation(itemstack, world, list, flag);
 				list.add(new StringTextComponent("cheap and \u00E9fficase"));
 			}
-
 		}.setRegistryName("batte"));
 	}
-
 }
