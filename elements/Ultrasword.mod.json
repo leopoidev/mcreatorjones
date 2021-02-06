@@ -1,0 +1,33 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "betteretardedsword",
+    "customModelName": "Normal",
+    "name": "Ultraretardedsword",
+    "specialInfo": [
+      "The best sword in the game. That's it"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 7.0,
+    "attackSpeed": 4.0,
+    "enchantability": 7,
+    "damageVsEntity": 10.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

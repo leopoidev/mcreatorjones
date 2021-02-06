@@ -2,6 +2,8 @@
 package net.mcreator.jonemodv.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
@@ -20,60 +22,51 @@ import net.mcreator.jonemodv.JoneModVModElements;
 import java.util.List;
 
 @JoneModVModElements.ModElement.Tag
-public class BatteItem extends JoneModVModElements.ModElement {
-	@ObjectHolder("jone_mod_v:batte")
+public class UltraswordItem extends JoneModVModElements.ModElement {
+	@ObjectHolder("jone_mod_v:ultrasword")
 	public static final Item block = null;
-	public BatteItem(JoneModVModElements instance) {
-		super(instance, 29);
+	public UltraswordItem(JoneModVModElements instance) {
+		super(instance, 43);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 150;
+				return 2000;
 			}
 
 			public float getEfficiency() {
-				return 0f;
+				return 7f;
 			}
 
 			public float getAttackDamage() {
-				return 2.3999999999999995f;
+				return 8f;
 			}
 
 			public int getHarvestLevel() {
-				return 0;
+				return 1;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 7;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(Items.WOODEN_AXE, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(Items.GOLDEN_APPLE, (int) (1)));
 			}
-		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
-			@Override
-			public boolean hasContainerItem() {
-				return true;
-			}
-
-			@Override
-			public ItemStack getContainerItem(ItemStack itemstack) {
-				ItemStack retval = new ItemStack(this);
-				retval.setDamage(itemstack.getDamage() + 1);
-				if (retval.getDamage() >= retval.getMaxDamage()) {
-					return ItemStack.EMPTY;
-				}
-				return retval;
-			}
-
+		}, 3, 0f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("cheap and \u00E9fficase"));
+				list.add(new StringTextComponent("The best sword in the game. That's it"));
 			}
-		}.setRegistryName("batte"));
+
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
+		}.setRegistryName("ultrasword"));
 	}
 }

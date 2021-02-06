@@ -1,17 +1,46 @@
 
 package net.mcreator.jonemodv.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.biome.BiomeColors;
+import net.minecraft.world.World;
+import net.minecraft.world.FoliageColors;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
+import net.minecraft.loot.LootContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.mcreator.jonemodv.particle.LeafyeParticle;
+import net.mcreator.jonemodv.itemgroup.DrugsItemGroup;
+import net.mcreator.jonemodv.JoneModVModElements;
+
+import java.util.Random;
+import java.util.List;
+import java.util.Collections;
 
 @JoneModVModElements.ModElement.Tag
 public class TropicleafBlock extends JoneModVModElements.ModElement {
-
 	@ObjectHolder("jone_mod_v:tropicleaf")
 	public static final Block block = null;
-
 	public TropicleafBlock(JoneModVModElements instance) {
 		super(instance, 39);
-
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ItemColorRegisterHandler());
 	}
@@ -27,7 +56,6 @@ public class TropicleafBlock extends JoneModVModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
-
 	private static class BlockColorRegisterHandler {
 		@OnlyIn(Dist.CLIENT)
 		@SubscribeEvent
@@ -49,13 +77,9 @@ public class TropicleafBlock extends JoneModVModElements.ModElement {
 	}
 
 	public static class CustomBlock extends Block {
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.LEAVES).sound(SoundType.VINE).hardnessAndResistance(0.4f, 10f).setLightLevel(s -> 0)
-							.slipperiness(0.2f).notSolid().setOpaque((bs, br, bp) -> false));
-
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.VINE).hardnessAndResistance(0.4f, 10f).setLightLevel(s -> 0)
+					.slipperiness(0.2f).notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("tropicleaf");
 		}
 
@@ -66,7 +90,6 @@ public class TropicleafBlock extends JoneModVModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
@@ -93,7 +116,5 @@ public class TropicleafBlock extends JoneModVModElements.ModElement {
 					world.addParticle(LeafyeParticle.particle, d0, d1, d2, d3, d4, d5);
 				}
 		}
-
 	}
-
 }
