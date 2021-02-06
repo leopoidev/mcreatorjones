@@ -2,50 +2,56 @@
 package net.mcreator.jonemodv.item;
 
 @JoneModVModElements.ModElement.Tag
-public class PENETRATORItem extends JoneModVModElements.ModElement {
+public class UltraswordItem extends JoneModVModElements.ModElement {
 
-	@ObjectHolder("jone_mod_v:penetrator")
+	@ObjectHolder("jone_mod_v:ultrasword")
 	public static final Item block = null;
 
-	public PENETRATORItem(JoneModVModElements instance) {
-		super(instance, 44);
+	public UltraswordItem(JoneModVModElements instance) {
+		super(instance, 43);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 101;
+				return 2000;
 			}
 
 			public float getEfficiency() {
-				return 0f;
+				return 7f;
 			}
 
 			public float getAttackDamage() {
-				return 3.1f;
+				return 8f;
 			}
 
 			public int getHarvestLevel() {
-				return 0;
+				return 1;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 7;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(Blocks.PINK_CONCRETE, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(Items.GOLDEN_APPLE, (int) (1)));
 			}
-		}, 3, -0.5f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, 0f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
 
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("C'est enemie tremble de peur quand elle les p\u00E9nettre"));
+				list.add(new StringTextComponent("The best sword in the game. That's it"));
 			}
 
-		}.setRegistryName("penetrator"));
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
+
+		}.setRegistryName("ultrasword"));
 	}
 
 }

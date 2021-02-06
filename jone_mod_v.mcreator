@@ -385,7 +385,7 @@
       "name": "Smelte",
       "type": "enchantment",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "smelte"
@@ -430,7 +430,7 @@
       "name": "Metank",
       "type": "block",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "metank"
@@ -546,7 +546,7 @@
       "name": "Tropicalvine",
       "type": "block",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicalvine"
@@ -585,7 +585,7 @@
       "name": "Tropicalbiome",
       "type": "block",
       "sortid": 36,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicalbiome"
@@ -606,7 +606,7 @@
       "name": "Tropicleaf",
       "type": "block",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicleaf"
@@ -615,7 +615,7 @@
       "name": "Gasoline",
       "type": "fluid",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "gasoline"
@@ -697,6 +697,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "thebow"
+    },
+    {
+      "name": "Ultrasword",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultrasword"
     }
   ],
   "variable_elements": [],
