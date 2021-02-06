@@ -385,7 +385,7 @@
       "name": "Smelte",
       "type": "enchantment",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "smelte"
@@ -606,7 +606,7 @@
       "name": "Tropicleaf",
       "type": "block",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicleaf"
@@ -615,7 +615,7 @@
       "name": "Gasoline",
       "type": "fluid",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "gasoline"
@@ -729,7 +729,7 @@
       "name": "Frouen",
       "type": "block",
       "sortid": 43,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "frouen"
@@ -742,6 +742,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nigger"
+    },
+    {
+      "name": "Baneofahahaha",
+      "type": "enchantment",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baneofahahaha"
     }
   ],
   "variable_elements": [],
@@ -761,7 +770,6 @@
       "item.jone_mod_v.fishinatube.desc": "fish in a tube",
       "item.jone_mod_v.wagyubeef": "Wagyubeef",
       "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
-      "item.jone_mod_v.ultrasword": "Ultraretardedsword",
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "biome.jone_mod_v.extremetropicalbiome": "Extremetropicalbiome",
       "fluid.gasoline": "Gasoline",
@@ -792,9 +800,10 @@
       "block.jone_mod_v.tropicalbiome": "Tropicalbiome",
       "item.jone_mod_v.chikenwing": "Chikenwing",
       "block.jone_mod_v.wildweed": "Wild weed",
+      "item.jone_mod_v.cooked_wagyubeef": "Cooked Wagyubeef",
       "enchantment.jone_mod_v.smelte": "Smelte",
-      "block.jone_mod_v.nigger": "Nigger",
       "block.jone_mod_v.protodisencha": "Protodisencha",
+      "subtitles.salmoinatu": "",
       "itemGroup.tabdrugs": "Drugs",
       "item.jone_mod_v.jonesingot": "Jonesingot",
       "block.jone_mod_v.weedstage_4": "Weedstage 1",

@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "enchantment",
+  "definition": {
+    "name": "curse of hahaha",
+    "type": "BREAKABLE",
+    "rarity": "UNCOMMON",
+    "minLevel": 2,
+    "maxLevel": 7,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}
