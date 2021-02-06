@@ -7,12 +7,12 @@ import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
 import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.jonemodv.JoneModVModElements;
@@ -29,7 +29,7 @@ public class BatteItem extends JoneModVModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 150;
 			}
@@ -53,7 +53,7 @@ public class BatteItem extends JoneModVModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Items.WOODEN_AXE, (int) (1)));
 			}
-		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+		}, 1, 1f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
 			@Override
 			public boolean hasContainerItem() {
 				return true;
