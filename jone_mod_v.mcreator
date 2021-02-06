@@ -385,7 +385,7 @@
       "name": "Smelte",
       "type": "enchantment",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "smelte"
@@ -430,7 +430,7 @@
       "name": "Metank",
       "type": "block",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "metank"
@@ -546,7 +546,7 @@
       "name": "Tropicalvine",
       "type": "block",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicalvine"
@@ -585,7 +585,7 @@
       "name": "Tropicalbiome",
       "type": "block",
       "sortid": 36,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicalbiome"
@@ -606,7 +606,7 @@
       "name": "Tropicleaf",
       "type": "block",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicleaf"
@@ -615,7 +615,7 @@
       "name": "Gasoline",
       "type": "fluid",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "gasoline"
@@ -706,6 +706,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ultrasword"
+    },
+    {
+      "name": "Gasolin",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gasolin"
+    },
+    {
+      "name": "Ethan",
+      "type": "painting",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ethan"
+    },
+    {
+      "name": "Frouen",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frouen"
     }
   ],
   "variable_elements": [],
@@ -725,8 +752,8 @@
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "biome.jone_mod_v.extremetropicalbiome": "Extremetropicalbiome",
       "block.jone_mod_v.tropicleaf": "Tropicleaf",
-      "block.jone_mod_v.metank": "Metank",
       "item.jone_mod_v.obsidianguardian_spawn_egg": "Obsidianguardian Spawn Egg",
+      "block.jone_mod_v.metank": "Metank",
       "item.jone_mod_v.obsidianshard": "Obsidianshard",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.jones_tools": "Jones Tools",
@@ -734,7 +761,6 @@
       "item.jone_mod_v.weeeseed": "Weeeseed",
       "entity.jone_mod_v.obsidianguardian": "Obsidianguardian",
       "item.jone_mod_v.batte": "Batte",
-      "item.jone_mod_v.motorv": "Motorv",
       "block.jone_mod_v.weedstage_6": "Weedstage 6",
       "advancements.aweedy_place.title": "A Weedy Place",
       "block.jone_mod_v.weedstage_5": "Weedstage 1",
@@ -754,7 +780,6 @@
       "item.jone_mod_v.jones_sword": "Jones Sword",
       "item.jone_mod_v.endbow": "Endbow",
       "item.jone_mod_v.gasoline_bucket": "Gasoline Bucket",
-      "item.jone_mod_v.jonescookies": "Jonescookies",
       "item.jone_mod_v.opioids": "Oxycontin",
       "block.jone_mod_v.esenc": "Protodisenchaeeee",
       "item.jone_mod_v.longdiamondaxe": "Longdiamondaxe",
@@ -764,12 +789,9 @@
       "item.jone_mod_v.finaljonesarmorornotlol_boots": "Blue jones Boots",
       "item.jone_mod_v.finaljonesarmorornotlol_chestplate": "Blue jones  Body",
       "block.jone_mod_v.wildweed": "Wild weed",
-      "item.jone_mod_v.cooked_wagyubeef": "Cooked Wagyubeef",
-      "item.jone_mod_v.penetrator": "PENETRATOR",
       "enchantment.jone_mod_v.smelte": "Smelte",
       "block.jone_mod_v.protodisencha": "Protodisencha",
-      "item.jone_mod_v.jonesingot": "Jonesingot",
-      "item.jone_mod_v.thebow": "Thebow"
+      "item.jone_mod_v.jonesingot": "Jonesingot"
     }
   },
   "workspaceSettings": {

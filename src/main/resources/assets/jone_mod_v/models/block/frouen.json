@@ -1,0 +1,9 @@
+{
+  "parent": "jone_mod_v:custom/ee",
+  "textures": {
+    "all": "jone_mod_v:blocks/cocacarpet",
+    "particle": "jone_mod_v:blocks/cocacarpet",
+    "0": "jone_mod_v:blocks/cocacarpet",
+    "1": "jone_mod_v:blocks/lazyasswayofcoca"
+  }
+}

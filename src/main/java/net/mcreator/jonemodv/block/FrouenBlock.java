@@ -4,13 +4,13 @@ package net.mcreator.jonemodv.block;
 import net.minecraft.block.material.Material;
 
 @JoneModVModElements.ModElement.Tag
-public class MetankBlock extends JoneModVModElements.ModElement {
+public class FrouenBlock extends JoneModVModElements.ModElement {
 
-	@ObjectHolder("jone_mod_v:metank")
+	@ObjectHolder("jone_mod_v:frouen")
 	public static final Block block = null;
 
-	public MetankBlock(JoneModVModElements instance) {
-		super(instance, 27);
+	public FrouenBlock(JoneModVModElements instance) {
+		super(instance, 43);
 
 	}
 
@@ -33,12 +33,12 @@ public class MetankBlock extends JoneModVModElements.ModElement {
 		public CustomBlock() {
 			super(
 
-					Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1.5f, 16.5f).setLightLevel(s -> 0).notSolid()
+					Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 							.setOpaque((bs, br, bp) -> false));
 
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
 
-			setRegistryName("metank");
+			setRegistryName("frouen");
 		}
 
 		@Override
@@ -49,7 +49,7 @@ public class MetankBlock extends JoneModVModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.create(0D, 0D, 0D, 1D, 2D, 1D).withOffset(offset.x, offset.y, offset.z);
+			return VoxelShapes.create(0D, 0D, 0D, 1D, 0.1D, 1D).withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override
