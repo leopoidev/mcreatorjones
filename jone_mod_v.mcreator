@@ -426,7 +426,7 @@
       "name": "Tropicalvine",
       "type": "block",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicalvine"
@@ -456,7 +456,7 @@
       "name": "Longdiamondaxe",
       "type": "tool",
       "sortid": 31,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "longdiamondaxe"
@@ -500,7 +500,7 @@
       "name": "Chikenwing",
       "type": "food",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "chikenwing"
@@ -538,7 +538,7 @@
       "name": "Leafye",
       "type": "particle",
       "sortid": 38,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "leafye"
@@ -556,7 +556,7 @@
       "name": "Longironaxedeodorant",
       "type": "tool",
       "sortid": 29,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "longironaxedeodorant"
@@ -583,7 +583,7 @@
       "name": "Wagyubeef",
       "type": "food",
       "sortid": 40,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "wagyubeef"
@@ -592,7 +592,7 @@
       "name": "Tropicalbiome",
       "type": "block",
       "sortid": 36,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicalbiome"
@@ -622,7 +622,7 @@
       "name": "Tropicleaf",
       "type": "block",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicleaf"
@@ -631,7 +631,7 @@
       "name": "Gasoline",
       "type": "fluid",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "gasoline"
@@ -683,6 +683,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ultrasword"
+    },
+    {
+      "name": "Motorv",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "motorv"
+    },
+    {
+      "name": "PENETRATOR",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penetrator"
+    },
+    {
+      "name": "Thebow",
+      "type": "gun",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thebow"
     }
   ],
   "variable_elements": [],
@@ -701,14 +728,12 @@
       "item.jone_mod_v.fishinatube.desc": "fish in a tube",
       "item.jone_mod_v.wagyubeef": "Wagyubeef",
       "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
-      "item.jone_mod_v.ultrasword": "Ultraretardedsword",
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "biome.jone_mod_v.extremetropicalbiome": "Extremetropicalbiome",
       "item.jone_mod_v.jones_sword": "Jones Sword",
       "item.jone_mod_v.endbow": "Endbow",
       "block.jone_mod_v.metank": "Metank",
       "item.jone_mod_v.opioids": "Opioids",
-      "item.jone_mod_v.jonescookies": "Jonescookies",
       "item.jone_mod_v.obsidianshard": "Obsidianshard",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.jones_tools": "Jones Tools",

@@ -1,0 +1,33 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "le_penetrator",
+    "customModelName": "Normal",
+    "name": "PENETRATOR",
+    "specialInfo": [
+      "C'est enemie tremble de peur quand elle les pénettre"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 3.5,
+    "enchantability": 2,
+    "damageVsEntity": 5.1,
+    "usageCount": 101,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.CONCRETE#6"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
