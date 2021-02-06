@@ -385,7 +385,7 @@
       "name": "Smelte",
       "type": "enchantment",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "smelte"
@@ -430,7 +430,7 @@
       "name": "Metank",
       "type": "block",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "metank"
@@ -489,16 +489,22 @@
       "registry_name": "obsidian"
     },
     {
-      "name": "ObsidianguardianOnInitialEntitySpawn",
-      "type": "procedure",
+      "name": "Sticks",
+      "type": "tag",
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "obsidianguardian_on_initial_entity_spawn",
-      "metadata": {
-        "dependencies": []
-      }
+      "registry_name": "sticks"
+    },
+    {
+      "name": "BatteV1",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batte_v_1"
     },
     {
       "name": "Chikenwing",
@@ -585,15 +591,6 @@
       "registry_name": "tropicalbiome"
     },
     {
-      "name": "Sticks",
-      "type": "tag",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sticks"
-    },
-    {
       "name": "WeedeffectDisplayOverlayIngame",
       "type": "procedure",
       "sortid": 34,
@@ -618,19 +615,10 @@
       "name": "Gasoline",
       "type": "fluid",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "gasoline"
-    },
-    {
-      "name": "CookedWagyubeef",
-      "type": "food",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cooked_wagyubeef"
     },
     {
       "name": "EdibleFoodEaten",
@@ -645,15 +633,6 @@
       }
     },
     {
-      "name": "BatteV1",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "batte_v_1"
-    },
-    {
       "name": "Longironrecipe",
       "type": "recipe",
       "sortid": 30,
@@ -663,22 +642,13 @@
       "registry_name": "longironrecipe"
     },
     {
-      "name": "Baneofahahaha",
-      "type": "enchantment",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "baneofahahaha"
-    },
-    {
-      "name": "Gasolin",
-      "type": "item",
+      "name": "CookedWagyubeef",
+      "type": "food",
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gasolin"
+      "registry_name": "cooked_wagyubeef"
     },
     {
       "name": "Jonescookies",
@@ -690,31 +660,16 @@
       "registry_name": "jonescookies"
     },
     {
-      "name": "Ultrasword",
-      "type": "tool",
-      "sortid": 43,
+      "name": "ObsidianguardianOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "ultrasword"
-    },
-    {
-      "name": "Ethan",
-      "type": "painting",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ethan"
-    },
-    {
-      "name": "Frouen",
-      "type": "block",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "frouen"
+      "registry_name": "obsidianguardian_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": []
+      }
     },
     {
       "name": "Motorv",
@@ -744,6 +699,42 @@
       "registry_name": "thebow"
     },
     {
+      "name": "Ultrasword",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultrasword"
+    },
+    {
+      "name": "Gasolin",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gasolin"
+    },
+    {
+      "name": "Ethan",
+      "type": "painting",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ethan"
+    },
+    {
+      "name": "Frouen",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frouen"
+    },
+    {
       "name": "Nigger",
       "type": "block",
       "sortid": 46,
@@ -751,6 +742,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nigger"
+    },
+    {
+      "name": "Baneofahahaha",
+      "type": "enchantment",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baneofahahaha"
     }
   ],
   "variable_elements": [],
@@ -775,10 +775,11 @@
       "item.jone_mod_v.obsidianshard": "Obsidianshard",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.jones_tools": "Jones Tools",
+      "enchantment.jone_mod_v.baneofahahaha": "curse of hahaha",
       "item.jone_mod_v.jonesbow": "Jonesbow",
       "item.jone_mod_v.weeeseed": "Weeeseed",
-      "item.jone_mod_v.batte": "Batte",
       "entity.jone_mod_v.obsidianguardian": "Obsidianguardian",
+      "item.jone_mod_v.batte": "Batte",
       "item.jone_mod_v.gasolin": "Gasolin",
       "item.jone_mod_v.motorv": "Motorv",
       "block.jone_mod_v.weedstage_6": "Weedstage 6",
@@ -795,8 +796,8 @@
       "item.jone_mod_v.finaljonesarmorornotlol_helmet": "Blue jones Helmet",
       "block.jone_mod_v.weedstage_1": "Weedstage 1",
       "block.jone_mod_v.tropicalvine": "Tropicalvine",
-      "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
       "item.jone_mod_v.wagyubeef": "Wagyubeef",
+      "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
       "item.jone_mod_v.ultrasword": "Ultraretardedsword",
       "fluid.gasoline": "Gasoline",
       "item.jone_mod_v.jones_sword": "Jones Sword",
