@@ -67,6 +67,11 @@ public class MetankBlock extends JoneModVModElements.ModElement {
 		}
 
 		@Override
+		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
+			return true;
+		}
+
+		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
 			return VoxelShapes.create(0D, 0D, 0D, 1D, 2D, 1D).withOffset(offset.x, offset.y, offset.z);

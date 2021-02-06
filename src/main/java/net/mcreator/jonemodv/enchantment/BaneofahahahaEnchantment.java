@@ -1,18 +1,12 @@
 
 package net.mcreator.jonemodv.enchantment;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.enchantment.EnchantmentType;
-import net.minecraft.enchantment.Enchantment;
-
-import net.mcreator.jonemodv.JoneModVModElements;
-
 @JoneModVModElements.ModElement.Tag
 public class BaneofahahahaEnchantment extends JoneModVModElements.ModElement {
+
 	@ObjectHolder("jone_mod_v:baneofahahaha")
 	public static final Enchantment enchantment = null;
+
 	public BaneofahahahaEnchantment(JoneModVModElements instance) {
 		super(instance, 43);
 	}
@@ -21,7 +15,9 @@ public class BaneofahahahaEnchantment extends JoneModVModElements.ModElement {
 	public void initElements() {
 		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("baneofahahaha"));
 	}
+
 	public static class CustomEnchantment extends Enchantment {
+
 		public CustomEnchantment(EquipmentSlotType... slots) {
 			super(Enchantment.Rarity.UNCOMMON, EnchantmentType.BREAKABLE, slots);
 		}
@@ -50,5 +46,7 @@ public class BaneofahahahaEnchantment extends JoneModVModElements.ModElement {
 		public boolean isAllowedOnBooks() {
 			return true;
 		}
+
 	}
+
 }

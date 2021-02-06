@@ -504,7 +504,7 @@
       "name": "Chikenwing",
       "type": "food",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "chikenwing"
@@ -513,7 +513,7 @@
       "name": "Leafye",
       "type": "particle",
       "sortid": 38,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "leafye"
@@ -522,7 +522,7 @@
       "name": "Longironaxedeodorant",
       "type": "tool",
       "sortid": 29,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "longironaxedeodorant"
@@ -540,7 +540,7 @@
       "name": "Tropicalvine",
       "type": "block",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicalvine"
@@ -561,7 +561,7 @@
       "name": "Wagyubeef",
       "type": "food",
       "sortid": 40,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "wagyubeef"
@@ -570,7 +570,7 @@
       "name": "Longdiamondaxe",
       "type": "tool",
       "sortid": 31,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "longdiamondaxe"
@@ -579,7 +579,7 @@
       "name": "Tropicalbiome",
       "type": "block",
       "sortid": 36,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicalbiome"
@@ -609,7 +609,7 @@
       "name": "Tropicleaf",
       "type": "block",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tropicleaf"
@@ -670,6 +670,78 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "baneofahahaha"
+    },
+    {
+      "name": "Gasolin",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gasolin"
+    },
+    {
+      "name": "Jonescookies",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jonescookies"
+    },
+    {
+      "name": "Ultrasword",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultrasword"
+    },
+    {
+      "name": "Ethan",
+      "type": "painting",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ethan"
+    },
+    {
+      "name": "Frouen",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frouen"
+    },
+    {
+      "name": "Motorv",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "motorv"
+    },
+    {
+      "name": "PENETRATOR",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penetrator"
+    },
+    {
+      "name": "Thebow",
+      "type": "gun",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thebow"
     }
   ],
   "variable_elements": [],
