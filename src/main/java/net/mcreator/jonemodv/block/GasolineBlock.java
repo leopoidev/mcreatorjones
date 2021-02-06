@@ -83,6 +83,11 @@ public class GasolineBlock extends JoneModVModElements.ModElement {
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("jone_mod_v:extremetropicalbiome").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.LOCAL_MODIFICATIONS)
 				.add(() -> new LakesFeature(BlockStateFeatureConfig.field_236455_a_) {
 					@Override
