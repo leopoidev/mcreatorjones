@@ -5,9 +5,9 @@
   "item.jone_mod_v.jones_tools": "Jones Tools",
   "block.jone_mod_v.esenc": "Protodisenchaeeee",
   "item.jone_mod_v.jonesbow": "Jonesbow",
-  "item.jone_mod_v.botleofprojectile": "Botleofprojectile",
-  "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
   "item.jone_mod_v.weeeseed": "Weeeseed",
+  "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
+  "item.jone_mod_v.botleofprojectile": "Botleofprojectile",
   "item.jone_mod_v.finaljonesarmorornotlol_boots": "Blue jones Boots",
   "item.jone_mod_v.finaljonesarmorornotlol_chestplate": "Blue jones  Body",
   "item.jone_mod_v.motorv": "Motorv",
@@ -22,6 +22,7 @@
   "block.jone_mod_v.weedstage_4": "Weedstage 1",
   "block.jone_mod_v.weedstage_3": "Weedstage 1",
   "block.jone_mod_v.weedstage_2": "Weedstage 1",
+  "item.jone_mod_v.thebow": "Thebow",
   "item.jone_mod_v.finaljonesarmorornotlol_helmet": "Blue jones Helmet",
   "block.jone_mod_v.weedstage_1": "Weedstage 1"
 }
