@@ -789,6 +789,15 @@
       "registry_name": "goldsword"
     },
     {
+      "name": "Bulletmp5",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bulletmp_5"
+    },
+    {
       "name": "Jones",
       "type": "tab",
       "sortid": 50,
@@ -807,15 +816,6 @@
       "registry_name": "mp_5"
     },
     {
-      "name": "Bulletmp5",
-      "type": "item",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bulletmp_5"
-    },
-    {
       "name": "Gunmp5",
       "type": "gun",
       "sortid": 52,
@@ -823,6 +823,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gunmp_5"
+    },
+    {
+      "name": "Revolver",
+      "type": "gun",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "revolver"
+    },
+    {
+      "name": "Motor",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "motor"
+    },
+    {
+      "name": "Kingkunta",
+      "type": "musicdisc",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kingkunta"
+    },
+    {
+      "name": "Kingkunrecupie",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kingkunrecupie"
     }
   ],
   "variable_elements": [],
@@ -834,11 +870,18 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "kingkunta",
+      "files": [
+        "ontiva.com-kendrick_lamar_-_king_kunta-hq"
+      ],
+      "category": "record",
+      "subtitle": "i got a bone to bit"
     }
   ],
   "language_map": {
     "en_us": {
-      "item.jone_mod_v.gunmp_5": "Gunmp 5",
       "item.jone_mod_v.fishinatube.desc": "fish in a tube",
       "item.jone_mod_v.goldesworditem": "Goldesworditem",
       "item.jone_mod_v.fishinatube": "Fishinatube",
@@ -848,7 +891,6 @@
       "block.jone_mod_v.metank": "Metank",
       "item.jone_mod_v.obsidianshard": "Obsidianshard",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
-      "item.jone_mod_v.mp_5": "Mp 5",
       "item.jone_mod_v.jones_tools": "Jones Tools",
       "enchantment.jone_mod_v.baneofahahaha": "curse of hahaha",
       "item.jone_mod_v.jonesbow": "Jonesbow",
@@ -869,12 +911,12 @@
       "block.jone_mod_v.frouen": "Coca carpet",
       "block.jone_mod_v.weedstage_3": "Weedstage 1",
       "block.jone_mod_v.weedstage_2": "Weedstage 1",
-      "item.jone_mod_v.bulletmp_5": "Bulletmp 5",
       "item.jone_mod_v.finaljonesarmorornotlol_helmet": "Blue jones Helmet",
       "block.jone_mod_v.weedstage_1": "Weedstage 1",
       "block.jone_mod_v.tropicalvine": "Tropicalvine",
       "item.jone_mod_v.wagyubeef": "Wagyubeef",
       "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
+      "subtitles.kingkunta": "i got a bone to bit",
       "item.jone_mod_v.ultrasword": "Ultraretardedsword",
       "fluid.gasoline": "Gasoline",
       "item.jone_mod_v.jones_sword": "Jones Sword",
@@ -889,7 +931,6 @@
       "item.jone_mod_v.botleofprojectile": "Botleofprojectile",
       "item.jone_mod_v.finaljonesarmorornotlol_boots": "Blue jones Boots",
       "item.jone_mod_v.finaljonesarmorornotlol_chestplate": "Blue jones  Body",
-      "itemGroup.tabjones": "Jones",
       "block.jone_mod_v.wildweed": "Wild weed",
       "item.jone_mod_v.cooked_wagyubeef": "Cooked Wagyubeef",
       "enchantment.jone_mod_v.smelte": "Smelte",

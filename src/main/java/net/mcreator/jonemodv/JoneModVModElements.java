@@ -47,6 +47,8 @@ public class JoneModVModElements {
 	public JoneModVModElements() {
 		sounds.put(new ResourceLocation("jone_mod_v", "salmoinatu"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("jone_mod_v", "salmoinatu")));
+		sounds.put(new ResourceLocation("jone_mod_v", "kingkunta"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("jone_mod_v", "kingkunta")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("jone_mod_v").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

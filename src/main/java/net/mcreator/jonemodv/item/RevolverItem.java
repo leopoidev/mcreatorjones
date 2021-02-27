@@ -2,16 +2,16 @@
 package net.mcreator.jonemodv.item;
 
 @JoneModVModElements.ModElement.Tag
-public class Gunmp5Item extends JoneModVModElements.ModElement {
+public class RevolverItem extends JoneModVModElements.ModElement {
 
-	@ObjectHolder("jone_mod_v:gunmp_5")
+	@ObjectHolder("jone_mod_v:revolver")
 	public static final Item block = null;
 
-	@ObjectHolder("jone_mod_v:entitybulletgunmp_5")
+	@ObjectHolder("jone_mod_v:entitybulletrevolver")
 	public static final EntityType arrow = null;
 
-	public Gunmp5Item(JoneModVModElements instance) {
-		super(instance, 52);
+	public RevolverItem(JoneModVModElements instance) {
+		super(instance, 50);
 	}
 
 	@Override
@@ -19,7 +19,7 @@ public class Gunmp5Item extends JoneModVModElements.ModElement {
 		elements.items.add(() -> new ItemRanged());
 		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-				.size(0.5f, 0.5f)).build("entitybulletgunmp_5").setRegistryName("entitybulletgunmp_5"));
+				.size(0.5f, 0.5f)).build("entitybulletrevolver").setRegistryName("entitybulletrevolver"));
 	}
 
 	@Override
@@ -32,9 +32,9 @@ public class Gunmp5Item extends JoneModVModElements.ModElement {
 	public static class ItemRanged extends Item {
 
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(200));
+			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(100));
 
-			setRegistryName("gunmp_5");
+			setRegistryName("revolver");
 		}
 
 		@Override
@@ -45,7 +45,7 @@ public class Gunmp5Item extends JoneModVModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.BOW;
+			return UseAction.SPEAR;
 		}
 
 		@Override
@@ -61,12 +61,12 @@ public class Gunmp5Item extends JoneModVModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ItemStack stack = ShootableItem.getHeldAmmo(entity, e -> e.getItem() == new ItemStack(Bulletmp5Item.block, (int) (1)).getItem());
+					ItemStack stack = ShootableItem.getHeldAmmo(entity, e -> e.getItem() == new ItemStack(Blocks.GOLD_BLOCK, (int) (1)).getItem());
 
 					if (stack == ItemStack.EMPTY) {
 						for (int i = 0; i < entity.inventory.mainInventory.size(); i++) {
 							ItemStack teststack = entity.inventory.mainInventory.get(i);
-							if (teststack != null && teststack.getItem() == new ItemStack(Bulletmp5Item.block, (int) (1)).getItem()) {
+							if (teststack != null && teststack.getItem() == new ItemStack(Blocks.GOLD_BLOCK, (int) (1)).getItem()) {
 								stack = teststack;
 								break;
 							}
@@ -75,14 +75,14 @@ public class Gunmp5Item extends JoneModVModElements.ModElement {
 
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
 
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 5f, 5.199999999999999, 5);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 5, 5);
 
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
 						} else {
-							if (new ItemStack(Bulletmp5Item.block, (int) (1)).isDamageable()) {
+							if (new ItemStack(Blocks.GOLD_BLOCK, (int) (1)).isDamageable()) {
 								if (stack.attemptDamageItem(1, random, entity)) {
 									stack.shrink(1);
 									stack.setDamage(0);
@@ -130,12 +130,12 @@ public class Gunmp5Item extends JoneModVModElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(Bulletmp5Item.block, (int) (1));
+			return new ItemStack(Blocks.GRASS_BLOCK, (int) (1));
 		}
 
 		@Override
 		protected ItemStack getArrowStack() {
-			return new ItemStack(Bulletmp5Item.block, (int) (1));
+			return new ItemStack(Blocks.GOLD_BLOCK, (int) (1));
 		}
 
 		@Override
@@ -183,10 +183,10 @@ public class Gunmp5Item extends JoneModVModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 5f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(5.199999999999999);
+		entityarrow.setDamage(5);
 		entityarrow.setKnockbackStrength(5);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);

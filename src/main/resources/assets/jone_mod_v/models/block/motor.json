@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jone_mod_v:blocks/motor",
+    "up": "jone_mod_v:blocks/motor",
+    "north": "jone_mod_v:blocks/mtoosa",
+    "east": "jone_mod_v:blocks/motor",
+    "south": "jone_mod_v:blocks/mtoosa",
+    "west": "jone_mod_v:blocks/motor",
+    "particle": "jone_mod_v:blocks/motor"
+  }
+}
