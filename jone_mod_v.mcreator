@@ -385,7 +385,7 @@
       "name": "Smelte",
       "type": "enchantment",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "smelte"
@@ -430,7 +430,7 @@
       "name": "Metank",
       "type": "block",
       "sortid": 27,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "metank"
@@ -615,7 +615,7 @@
       "name": "Gasoline",
       "type": "fluid",
       "sortid": 41,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "gasoline"
@@ -751,6 +751,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "baneofahahaha"
+    },
+    {
+      "name": "Motor",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "motor"
     }
   ],
   "variable_elements": [],
@@ -770,8 +779,8 @@
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "biome.jone_mod_v.extremetropicalbiome": "Extremetropicalbiome",
       "block.jone_mod_v.tropicleaf": "Tropicleaf",
-      "block.jone_mod_v.metank": "Metank",
       "item.jone_mod_v.obsidianguardian_spawn_egg": "Obsidianguardian Spawn Egg",
+      "block.jone_mod_v.metank": "Metank",
       "item.jone_mod_v.obsidianshard": "Obsidianshard",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.jones_tools": "Jones Tools",
@@ -816,6 +825,7 @@
       "item.jone_mod_v.cooked_wagyubeef": "Cooked Wagyubeef",
       "enchantment.jone_mod_v.smelte": "Smelte",
       "item.jone_mod_v.penetrator": "PENETRATOR",
+      "block.jone_mod_v.motor": "Motor",
       "block.jone_mod_v.protodisencha": "Protodisencha",
       "subtitles.salmoinatu": "",
       "item.jone_mod_v.jonesingot": "Jonesingot",
