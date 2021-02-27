@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Blocks.LOG"
+        "value": ""
       },
       {
-        "value": "Items.LEATHER"
+        "value": "CUSTOM:Goldstick2"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "CUSTOM:Goldstick2"
       },
       {
-        "value": "Items.STICK"
+        "value": ""
       },
       {
-        "value": "Items.LEATHER"
+        "value": "CUSTOM:Goldstick2"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Batte"
+      "value": "CUSTOM:Goldesworditem"
     },
-    "name": "batte_v_1",
+    "name": "goldsword",
     "namespace": "mod"
   }
 }

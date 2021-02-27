@@ -1,0 +1,30 @@
+{
+  "group": "jone_mod_v",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "jone_mod_v:deleted_mod_element"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "jone_mod_v:deleted_mod_element"
+    },
+    "7": {
+      "item": "jone_mod_v:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "jone_mod_v:deleted_mod_element",
+    "count": 1
+  }
+}

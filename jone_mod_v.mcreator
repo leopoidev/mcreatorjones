@@ -385,7 +385,7 @@
       "name": "Smelte",
       "type": "enchantment",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "smelte"
@@ -430,7 +430,7 @@
       "name": "Metank",
       "type": "block",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "metank"
@@ -615,7 +615,7 @@
       "name": "Gasoline",
       "type": "fluid",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "gasoline"
@@ -760,6 +760,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "motor"
+    },
+    {
+      "name": "Goldsword",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldsword"
+    },
+    {
+      "name": "Goldesworditem",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldesworditem"
+    },
+    {
+      "name": "Goldstick2",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldstick_2"
+    },
+    {
+      "name": "Goldstick",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldstick"
     }
   ],
   "variable_elements": [],
@@ -825,7 +861,6 @@
       "item.jone_mod_v.cooked_wagyubeef": "Cooked Wagyubeef",
       "enchantment.jone_mod_v.smelte": "Smelte",
       "item.jone_mod_v.penetrator": "PENETRATOR",
-      "block.jone_mod_v.motor": "Motor",
       "block.jone_mod_v.protodisencha": "Protodisencha",
       "subtitles.salmoinatu": "",
       "item.jone_mod_v.jonesingot": "Jonesingot",

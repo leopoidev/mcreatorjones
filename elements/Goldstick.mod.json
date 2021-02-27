@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "Blocks.LOG"
+        "value": ""
       },
       {
-        "value": "Blocks.LOG"
+        "value": ""
       },
       {
-        "value": "Items.LEATHER"
+        "value": ""
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "Blocks.LOG"
+        "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": ""
       },
       {
-        "value": "Items.LEATHER"
+        "value": "Items.GOLD_INGOT"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Batte"
+      "value": "CUSTOM:Goldstick2"
     },
-    "name": "batte_v_1",
+    "name": "goldstick",
     "namespace": "mod"
   }
 }
