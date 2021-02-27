@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc",
+    "name": "King Kunta",
+    "description": "i got a bone to pick",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:kingkunta"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -7,5 +7,15 @@
         "stream": false
       }
     ]
+  },
+  "kingkunta": {
+    "category": "record",
+    "subtitle": "subtitles.kingkunta",
+    "sounds": [
+      {
+        "name": "jone_mod_v:ontiva.com-kendrick_lamar_-_king_kunta-hq",
+        "stream": true
+      }
+    ]
   }
 }

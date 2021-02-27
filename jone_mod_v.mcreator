@@ -385,7 +385,7 @@
       "name": "Smelte",
       "type": "enchantment",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "smelte"
@@ -430,7 +430,7 @@
       "name": "Metank",
       "type": "block",
       "sortid": 27,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "metank"
@@ -615,7 +615,7 @@
       "name": "Gasoline",
       "type": "fluid",
       "sortid": 41,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "gasoline"
@@ -796,6 +796,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "goldstick"
+    },
+    {
+      "name": "Kingkunta",
+      "type": "musicdisc",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kingkunta"
+    },
+    {
+      "name": "Kingkunrecupie",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kingkunrecupie"
+    },
+    {
+      "name": "Revolver",
+      "type": "gun",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "revolver"
     }
   ],
   "variable_elements": [],
@@ -807,16 +834,26 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "kingkunta",
+      "files": [
+        "ontiva.com-kendrick_lamar_-_king_kunta-hq"
+      ],
+      "category": "record",
+      "subtitle": "i got a bone to bit"
     }
   ],
   "language_map": {
     "en_us": {
       "item.jone_mod_v.fishinatube.desc": "fish in a tube",
+      "item.jone_mod_v.goldesworditem": "Goldesworditem",
+      "item.jone_mod_v.revolver": "Revolver",
       "item.jone_mod_v.fishinatube": "Fishinatube",
       "biome.jone_mod_v.extremetropicalbiome": "Extremetropicalbiome",
       "block.jone_mod_v.tropicleaf": "Tropicleaf",
-      "item.jone_mod_v.obsidianguardian_spawn_egg": "Obsidianguardian Spawn Egg",
       "block.jone_mod_v.metank": "Metank",
+      "item.jone_mod_v.obsidianguardian_spawn_egg": "Obsidianguardian Spawn Egg",
       "item.jone_mod_v.obsidianshard": "Obsidianshard",
       "advancements.aweedy_place.descr": "Plant your first weed seed",
       "item.jone_mod_v.jones_tools": "Jones Tools",
@@ -834,15 +871,18 @@
       "item.jone_mod_v.chikenwing": "Chikenwing",
       "block.jone_mod_v.nigger": "Nigger",
       "itemGroup.tabdrugs": "Drugs",
+      "item.jone_mod_v.goldstick_2": "Goldstick 2",
       "block.jone_mod_v.weedstage_4": "Weedstage 1",
       "block.jone_mod_v.frouen": "Coca carpet",
       "block.jone_mod_v.weedstage_3": "Weedstage 1",
       "block.jone_mod_v.weedstage_2": "Weedstage 1",
       "item.jone_mod_v.finaljonesarmorornotlol_helmet": "Blue jones Helmet",
       "block.jone_mod_v.weedstage_1": "Weedstage 1",
+      "item.jone_mod_v.kingkunta.desc": "i got a bone to pick",
       "block.jone_mod_v.tropicalvine": "Tropicalvine",
       "item.jone_mod_v.wagyubeef": "Wagyubeef",
       "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
+      "subtitles.kingkunta": "i got a bone to bit",
       "item.jone_mod_v.ultrasword": "Ultraretardedsword",
       "fluid.gasoline": "Gasoline",
       "item.jone_mod_v.jones_sword": "Jones Sword",
@@ -861,8 +901,10 @@
       "item.jone_mod_v.cooked_wagyubeef": "Cooked Wagyubeef",
       "enchantment.jone_mod_v.smelte": "Smelte",
       "item.jone_mod_v.penetrator": "PENETRATOR",
+      "block.jone_mod_v.motor": "Motor",
       "block.jone_mod_v.protodisencha": "Protodisencha",
       "subtitles.salmoinatu": "",
+      "item.jone_mod_v.kingkunta": "King Kunta",
       "item.jone_mod_v.jonesingot": "Jonesingot",
       "item.jone_mod_v.thebow": "Thebow"
     }
