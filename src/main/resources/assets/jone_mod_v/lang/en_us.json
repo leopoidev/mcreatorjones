@@ -1,7 +1,6 @@
 {
   "item.jone_mod_v.fishinatube.desc": "fish in a tube",
   "item.jone_mod_v.goldesworditem": "Goldesworditem",
-  "item.jone_mod_v.revolver": "Revolver",
   "item.jone_mod_v.fishinatube": "Fishinatube",
   "biome.jone_mod_v.extremetropicalbiome": "Extremetropicalbiome",
   "block.jone_mod_v.tropicleaf": "Tropicleaf",
@@ -20,7 +19,6 @@
   "block.jone_mod_v.weedstage_6": "Weedstage 6",
   "advancements.aweedy_place.title": "A Weedy Place",
   "block.jone_mod_v.weedstage_5": "Weedstage 1",
-  "biome.jone_mod_v.hhhhhhhhhhhhhhhh": "Hhhhhhhhhhhhhhhh",
   "block.jone_mod_v.tropicalbiome": "Tropicalbiome",
   "item.jone_mod_v.chikenwing": "Chikenwing",
   "block.jone_mod_v.nigger": "Nigger",
@@ -32,7 +30,6 @@
   "block.jone_mod_v.weedstage_2": "Weedstage 1",
   "item.jone_mod_v.finaljonesarmorornotlol_helmet": "Blue jones Helmet",
   "block.jone_mod_v.weedstage_1": "Weedstage 1",
-  "item.jone_mod_v.kingkunta.desc": "i got a bone to pick",
   "block.jone_mod_v.tropicalvine": "Tropicalvine",
   "item.jone_mod_v.wagyubeef": "Wagyubeef",
   "item.jone_mod_v.shulkerarrow": "Shulkerarrow",
@@ -46,7 +43,6 @@
   "item.jone_mod_v.jonescookies": "Jonescookies",
   "block.jone_mod_v.esenc": "Protodisenchaeeee",
   "item.jone_mod_v.longdiamondaxe": "Longdiamondaxe",
-  "block.jone_mod_v.ir": "Ir",
   "item.jone_mod_v.longironaxedeodorant": "Longironaxedeodorant",
   "item.jone_mod_v.finaljonesarmorornotlol_leggings": "Blue jones Leggings",
   "item.jone_mod_v.botleofprojectile": "Botleofprojectile",
@@ -56,10 +52,8 @@
   "item.jone_mod_v.cooked_wagyubeef": "Cooked Wagyubeef",
   "enchantment.jone_mod_v.smelte": "Smelte",
   "item.jone_mod_v.penetrator": "PENETRATOR",
-  "block.jone_mod_v.motor": "Motor",
   "block.jone_mod_v.protodisencha": "Protodisencha",
   "subtitles.salmoinatu": "",
-  "item.jone_mod_v.kingkunta": "King Kunta",
   "item.jone_mod_v.jonesingot": "Jonesingot",
   "item.jone_mod_v.thebow": "Thebow"
 }
